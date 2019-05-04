@@ -13,3 +13,10 @@ struct Converter {
     let inputUnit: String
     let outputUnit: String
 }
+
+enum ActionSheet {
+    case ftoc
+    case ctof
+    case mtok
+    case ktom
+}
